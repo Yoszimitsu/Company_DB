@@ -1,0 +1,10 @@
+insert into company.supervisor (name, surname, position, phone, email) values ('Ogdon', 'Kauschke', 'engineer', '228 911 2936', 'okauschke0@wired.com');
+insert into company.supervisor (name, surname, position, phone, email) values ('Chauncey', 'Drewe', 'engineer', '474 860 1874', 'cdrewe1@independent.co.uk');
+insert into company.supervisor (name, surname, position, phone, email) values ('Jewel', 'Dik', 'engineer', '974 941 9143', 'jdik2@google.cn');
+insert into company.supervisor (name, surname, position, phone, email) values ('Cori', 'Follacaro', 'engineer', '752 997 3851', 'cfollacaro3@a8.net');
+insert into company.supervisor (name, surname, position, phone, email) values ('Walliw', 'Regler', 'engineer', '789 582 4255', 'wregler4@nydailynews.com');
+insert into company.supervisor (name, surname, position, phone, email) values ('Stirling', 'Williams', 'engineer', '925 222 8698', 'swilliams5@mashable.com');
+insert into company.supervisor (name, surname, position, phone, email) values ('Danella', 'Valti', 'engineer', '317 883 0721', 'dvalti6@ucsd.edu');
+insert into company.supervisor (name, surname, position, phone, email) values ('Katina', 'Lubbock', 'engineer', '857 635 9630', 'klubbock7@lulu.com');
+insert into company.supervisor (name, surname, position, phone, email) values ('Ladonna', 'Matyasik', 'engineer', '146 450 5182', 'lmatyasik8@chronoengine.com');
+insert into company.supervisor (name, surname, position, phone, email) values ('Iormina', 'Lodeke', 'engineer', '365 179 3664', 'ilodeke9@google.co.jp');

@@ -1,0 +1,10 @@
+insert into company.client (name, surname, company_name, phone, email) values ('Beverie', 'Nevet', 'Graham, Hudson and Hettinger', '123 557 7970', 'bnevet0@github.io');
+insert into company.client (name, surname, company_name, phone, email) values ('Kelvin', 'Dolder', 'Hahn Group', '129 842 9118', 'kdolder1@oracle.com');
+insert into company.client (name, surname, company_name, phone, email) values ('Kaylil', 'Lotte', 'Lueilwitz Inc', '819 330 4006', 'klotte2@mapquest.com');
+insert into company.client (name, surname, company_name, phone, email) values ('Reeta', 'Astman', 'Casper-Harber', '322 893 4668', 'rastman3@pen.io');
+insert into company.client (name, surname, company_name, phone, email) values ('Noby', 'Theze', 'Johnston-Spencer', '976 549 1871', 'ntheze4@ning.com');
+insert into company.client (name, surname, company_name, phone, email) values ('Maximilian', 'Herculeson', 'Turcotte-Daniel', '411 442 5859', 'mherculeson5@1und1.de');
+insert into company.client (name, surname, company_name, phone, email) values ('Lilly', 'Billiard', 'Goldner, Parker and Dibbert', '991 112 7980', 'lbilliard6@earthlink.net');
+insert into company.client (name, surname, company_name, phone, email) values ('Olly', 'Bilovsky', 'Hartmann LLC', '266 957 4203', 'obilovsky7@homestead.com');
+insert into company.client (name, surname, company_name, phone, email) values ('Nicolea', 'Luker', 'Stark-Brown', '595 190 5940', 'nluker8@goo.ne.jp');
+insert into company.client (name, surname, company_name, phone, email) values ('Grier', 'Dory', 'Altenwerth, Kozey and Johnson', '948 913 1268', 'gdory9@ovh.net');

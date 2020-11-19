@@ -1,0 +1,10 @@
+insert into company.contact_person (name, surname, phone, email) values ('Loreen', 'Casarini', '989-256-3003', 'lcasarini0@php.net');
+insert into company.contact_person (name, surname, phone, email) values ('Donalt', 'Cutten', '130-741-3695', 'dcutten1@ow.ly');
+insert into company.contact_person (name, surname, phone, email) values ('Agnola', 'Frankowski', '889-257-1083', 'afrankowski2@ca.gov');
+insert into company.contact_person (name, surname, phone, email) values ('Aaron', 'Struan', '783-584-8149', 'astruan3@hubpages.com');
+insert into company.contact_person (name, surname, phone, email) values ('Arturo', 'Budnk', '545-808-5013', 'abudnk4@mlb.com');
+insert into company.contact_person (name, surname, phone, email) values ('Frasco', 'Treneer', '332-826-1896', 'ftreneer5@delicious.com');
+insert into company.contact_person (name, surname, phone, email) values ('Angy', 'Arter', '986-550-3860', 'aarter6@xing.com');
+insert into company.contact_person (name, surname, phone, email) values ('Ximenes', 'Ruffy', '937-522-2291', 'xruffy7@dedecms.com');
+insert into company.contact_person (name, surname, phone, email) values ('Ker', 'Bifield', '461-498-8909', 'kbifield8@rambler.ru');
+insert into company.contact_person (name, surname, phone, email) values ('Kikelia', 'Costar', '537-241-3723', 'kcostar9@mtv.com');

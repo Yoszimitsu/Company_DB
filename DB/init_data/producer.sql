@@ -1,0 +1,10 @@
+insert into company.producer (name, contact_person_id, type_a_discount, type_b_discount) values ('Agimba', 1, '0.45', '0.06');
+insert into company.producer (name, contact_person_id, type_a_discount, type_b_discount) values ('Brightbean', 2, '0.18', '0.29');
+insert into company.producer (name, contact_person_id, type_a_discount, type_b_discount) values ('Kazu', 3, '0.07', '0.54');
+insert into company.producer (name, contact_person_id, type_a_discount, type_b_discount) values ('LiveZ', 4, '0.33', '0.87');
+insert into company.producer (name, contact_person_id, type_a_discount, type_b_discount) values ('Roomm', 5, '0.35', '0.57');
+insert into company.producer (name, contact_person_id, type_a_discount, type_b_discount) values ('Skipstorm', 6, '0.76', '0.98');
+insert into company.producer (name, contact_person_id, type_a_discount, type_b_discount) values ('Thoughtworks', 7, '0.55', '0.67');
+insert into company.producer (name, contact_person_id, type_a_discount, type_b_discount) values ('Dabfeed', 8, '0.42', '0.13');
+insert into company.producer (name, contact_person_id, type_a_discount, type_b_discount) values ('Tazz', 9, '0.64', '0.08');
+insert into company.producer (name, contact_person_id, type_a_discount, type_b_discount) values ('Divanoodle', 10, '0.93', '0.34');

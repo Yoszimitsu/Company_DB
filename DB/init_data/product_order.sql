@@ -1,0 +1,10 @@
+insert into company.product_order (product_id, sub_investment_id, quantity) values (1, 1, '5');
+insert into company.product_order (product_id, sub_investment_id, quantity) values (2, 2, '79');
+insert into company.product_order (product_id, sub_investment_id, quantity) values (3, 3, '43');
+insert into company.product_order (product_id, sub_investment_id, quantity) values (4, 4, '7');
+insert into company.product_order (product_id, sub_investment_id, quantity) values (5, 5, '5');
+insert into company.product_order (product_id, sub_investment_id, quantity) values (6, 6, '71');
+insert into company.product_order (product_id, sub_investment_id, quantity) values (7, 7, '395');
+insert into company.product_order (product_id, sub_investment_id, quantity) values (8, 8, '504');
+insert into company.product_order (product_id, sub_investment_id, quantity) values (9, 9, '5');
+insert into company.product_order (product_id, sub_investment_id, quantity) values (10, 10, '57');

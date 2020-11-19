@@ -1,0 +1,10 @@
+insert into company.product (producer_id, name, price_net, type_a, type_b) values (1, 'Pasta - Shells, Medium, Dry', '318.27', false, true);
+insert into company.product (producer_id, name, price_net, type_a, type_b) values (2, 'Sambuca Cream', '296.60', false, NULL);
+insert into company.product (producer_id, name, price_net, type_a, type_b) values (3, 'Water - Perrier', '583.46', false, true);
+insert into company.product (producer_id, name, price_net, type_a, type_b) values (4, 'Longos - Greek Salad', '201.76', true, false);
+insert into company.product (producer_id, name, price_net, type_a, type_b) values (5, 'Table Cloth 54x72 Colour', '580.59', false, true);
+insert into company.product (producer_id, name, price_net, type_a, type_b) values (6, 'Chinese Foods - Chicken', '595.75', true, false);
+insert into company.product (producer_id, name, price_net, type_a, type_b) values (7, 'Lamb - Loin Chops', '744.25', true, NULL);
+insert into company.product (producer_id, name, price_net, type_a, type_b) values (8, 'Sage Derby', '003.81', false, true);
+insert into company.product (producer_id, name, price_net, type_a, type_b) values (9, 'Cape Capensis - Fillet', '816.59', true, false);
+insert into company.product (producer_id, name, price_net, type_a, type_b) values (10, 'Wine - Two Oceans Sauvignon', '860.28', NULL, NULL);
