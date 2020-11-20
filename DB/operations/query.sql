@@ -1,5 +1,5 @@
 -- \connect "company";
-
+SET client_encoding TO 'utf-8';
 IF company.producer.typa_a_discount = 'true' then
 
 SELECT 
