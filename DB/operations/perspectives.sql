@@ -11,7 +11,7 @@ SELECT
 	 (1 - CASE
 	  WHEN (COALESCE(a.type_a, false)) IS TRUE THEN
 	            b.type_a_discount
-	  WHEN  (COALESCE(a.type_a, false)) IS TRUE THEN
+	  WHEN  (COALESCE(a.type_b, false)) IS TRUE THEN
 	            b.type_b_discount
       ELSE
                 0
@@ -24,7 +24,7 @@ SELECT
 	 (1 - CASE
 	  WHEN (COALESCE(a.type_a, false)) IS TRUE THEN
 	            b.type_a_discount
-	  WHEN  (COALESCE(a.type_a, false)) IS TRUE THEN
+	  WHEN  (COALESCE(a.type_b, false)) IS TRUE THEN
 	            b.type_b_discount
       ELSE
                 0
@@ -39,16 +39,15 @@ INNER JOIN company.product p
 ON a.product_id = p.product_id
 INNER JOIN company.producer b
 ON a.producer_id = b.producer_id
---WHERE c.sub_investment_id = 1
 ORDER BY c.product_id;
 
 
-CREATE VIEW company.investment_info as
+CREATE OR REPLACE VIEW company.investment_info as
 SELECT
 	c.investment_id,
 	c.name,
 	k.company_name client,
-	CONCAT('st. ', p.street, ' ',p.number, ' ,', p.post_code, ' ,', p.city, ' ,', p.country) address,
+	company.address_procedure() address,
 	c.start_date,
 	c.end_date,
 	CONCAT(s.name, ' ', s.surname) supervisor
