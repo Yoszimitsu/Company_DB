@@ -127,3 +127,5 @@ GRANT ALL                            ON ALL TABLES IN SCHEMA company TO manageme
 GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA company TO management, employee, intern;
 
 DROP SCHEMA public;
+
+ALTER TABLE company.producer ADD CONSTRAINT unique_constraints UNIQUE (name);
