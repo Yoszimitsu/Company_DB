@@ -77,10 +77,11 @@ declare
             SQLSTATE: %
             SQLERRM: %', SQLSTATE, SQLERRM;
 
-        raise notice '%', message_text;
+        raise notice '%', v_msg;
 
     end;
 $$ LANGUAGE plpgsql;
+
 
 -- TODO
 -- CREATE OR REPLACE FUNCTION company.product_type_disc() RETURNS TABLE (discount NUMERIC(3,2))
